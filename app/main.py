@@ -1,8 +1,10 @@
 from fastapi import FastAPI
 from routers import company
+from routers import job
 
 app=FastAPI()
 app.include_router(company.router)
+app.include_router(job.router)
 @app.get("/")
 def read_root():
     return {"Hello": "World"}

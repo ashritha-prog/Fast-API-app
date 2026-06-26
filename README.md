@@ -31,3 +31,24 @@
 - service -- business logic
 - Repository -- data access layer
 - Middleware -- request processing pipeline
+
+# database
+## relational database\
+- mysql
+- postgresql
+- splite
+- sql server
+
+## non-relational database
+- mongodb
+- dynamodb
+- redis
+- cassandra
+
+# constraits in database
+- primary key -- eg: student_id,staff_id
+- foriegn key -- eg: department_id in student table
+- unique --eg: email,phonenumber
+- not null --eg: name
+- check --  eg: salary > 0
+- default -- eg:timestamp: func.now()
