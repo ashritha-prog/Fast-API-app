@@ -1,5 +1,5 @@
 import type {job} from "./job";
-interface company{
+interface Company{
     id:number;
     name:string;
     email:string;
@@ -8,4 +8,4 @@ interface company{
     jobs:job[];
 
 }
-export type{company}
+export type{Company}
