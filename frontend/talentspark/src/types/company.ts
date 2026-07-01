@@ -1,4 +1,5 @@
 import type {job} from "./job";
+
 interface Company{
     id:number;
     name:string;
